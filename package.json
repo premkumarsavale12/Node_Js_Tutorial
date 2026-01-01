@@ -1,0 +1,23 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "Code with Premkumar Savale",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premkumarsavale12/Node_Js_Tutorial.git"
+  },
+  "author": "Premkumar Savale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/premkumarsavale12/Node_Js_Tutorial/issues"
+  },
+  "homepage": "https://github.com/premkumarsavale12/Node_Js_Tutorial#readme"
+}
