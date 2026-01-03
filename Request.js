@@ -13,10 +13,10 @@ http.createServer((req, res) => {
 
         res.write("<h1>  Login PAGE</h1>")
     }
-     else{
-         res.write("<h1>  Other Page </h1>");
-          
-     }
+    else {
+        res.write("<h1>  Other Page </h1>");
+
+    }
 
     res.end();
 
