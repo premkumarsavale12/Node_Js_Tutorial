@@ -33,7 +33,12 @@ http.createServer((req, res) => {
             req.on('end', () => {
                 let rawData = Buffer.concat(dataBody).toString();
                 let readableData = queryString.parse(rawData)
-                console.log(readableData);
+     
+                 let dataString = "My Name is  "+readableData.name+  "and My Email id is " + readableData.email ;
+                  
+                   console.log(dataString);
+                   
+                
             })
 
             res.write("<h1>  Submitted Data ..... </h1> ");
